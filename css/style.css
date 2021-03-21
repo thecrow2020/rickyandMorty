@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/3115119.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title {
+    margin: 0;
+    display: block;
+}
+
+img {
+    width: 30%;
+}
+
+.btn-entrar {
+    padding: 20px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: 25px;
+}
+
+.btn-abrir {
+    width: 90%;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.mostrar-datos,
+.lista2 {
+    background-color: rgba(0, 0, 0, 0.993);
+    position: fixed;
+    background-image: url(../img/Rick\ And\ Morty\ Png\ File\ -\ Rick\ E\ Morty\ Logo\ Png\,\ Transparent\ Png\ -\ vhv.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-bottom: double gold;
+    border-top: double gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.mostrar-datos.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.lista2.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.btn-salir,
+.btn-next,
+.btn-ant {
+    width: 60%;
+    margin: 15%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(5, 95, 117);
+    color: white;
+    box-shadow: 0 0 10px 0 white;
+}
+
+.btn-salir:hover,
+.btn-next:hover,
+.btn-ant:hover {
+    background-color: rgba(4, 231, 231, 0.781);
+    box-shadow: 0 0 10px 0  rgb(46, 233, 21);
+}
+
+.contenedor-btn-next,
+.contenedor-btn-salir,
+.contenedor-data {
+    width: 33%;
+    margin: 20px;
+}
+
+
+.lista {
+    list-style: none;
+    display: inline-block;
+}
+
+.lista-datos {
+    background-color: rgba(16, 93, 235, 0.445);
+    box-shadow: 0 0 10px 0 white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: fantasy;
+    display: grid;
+
+}
+
+.ap {
+    color: white;
+}
